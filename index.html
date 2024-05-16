@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Titolo Pagina</title>
+	<meta name="author"      content="Nome Cognome">
+	<meta name="description" content="Descrizione">
+	<meta name="viewport"    content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet"   href="./assets/css/main.css">
+</head>
+<body>
+	<main class="contenitore">
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<header>
+			<span></span>
+			<h1>Spirografo</h1>
+		</header>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Storia <br></h4>
+			<div class="contenuto-sezione">
+				<p>
+					Lo Spirograph è stato inventato dall'ingegnere britannico Denys Fisher, che lo presentò nel 1965. Lo strumento fu prodotto dall'azienda Fisher, ma l'anno seguente i diritti di distribuzione vennero acquistati dalla Kenner, un'azienda di giocattoli statunitense, che iniziò a venderlo negli USA. 
+                    In Italia è stato commercializzato con il nome di spirografo o cerchio magico.
+				</p>
+				<iframe scrolling=no  height=500 width=500  src="./assets/img/600.png"></iframe>
+			</div>
+		</section>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Funzionamento <br></h4>
+			<div class="contenuto-sezione">
+				<p>
+					Lo spirografo è uno strumento che produce curve ipotrocoidi e epicicloidi, appartenenti alla famiglia delle trocoidi, curve tracciate da un punto fissato su un cerchio, mentre rotola lungo una linea retta.
+				</p>
+		
+			</div>
+		</section>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Curve ipotrocoidi <br></h4>
+			<div class="contenuto-sezione">
+				<p>
+					Le ipotrocoidi sono le figure geometriche che si ottengono con lo spirografo classico, dove la rotella più piccola gira all’interno della circonferenza di base. Le due circonferenze devono essere tangenti, quella interna deve essere appoggiata a quella esterna. In base al valore del raggio della circonferenza interna la curva avrà un comportamento diverso:
+					<ul>
+						<li>se r è una frazione del tipo 1/n (n numero naturale) la curva si chiude dopo un singolo giro completo della circonferenza più piccola attorno alla più grande</li>
+						<li>se r è un numero razionale la curva si chiude dopo più di un giro</li>
+						<li>se r è un numero irrazionale la curva non si chiuderà mai</li>
+	
+					</ul>
+				</p>
+				<iframe scrolling=no frameborder=0 width=500 height=500 src="./assets/sketches/curva_ipotricoide/"></iframe>
+			</p>
+				<h4 class="titolo-sezione">Formula <br></h4>
+			</p>
+				x(ϕ)= (R-r)*cosϕ + d*cos*(R+r/r)
+			</p>
+				y(ϕ)= (R-r)sinϕ + dsin(R+r/r*ϕ)
+			
+		</div>
+		</section>
+
+		<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="titolo-sezione">Casi particolari<br></h4>
+			<div class="contenuto-sezione">
+				<p>
+					L'ipocicloide per cui il raggio "r" della circonferenza interna è pari a un terzo della circonferenza di base viene detta deltoide. 
+				</p>
+					<iframe scrolling=no frameborder=0 width=100 height=300 src="./assets/sketches/deltoide/"></iframe>
+					<section class=></section>
+					L'ipocicloide per cui il raggio "r" della circonferenza interna è pari a un quarto della circonferenza di base viene invece detta astroide.
+				</p>
+					<iframe scrolling=no frameborder=0 width=250 height=300 src="./assets/sketches/astroide/"></iframe>
+					<section class=></section>
+					L'ellisse può essere espressa come un caso particolare di ipotrocoide con "R"=2r e la distanza d = 1.
+				</p>
+					<iframe scrolling=no frameborder=0 width=250 height=300 src="./assets/sketches/ellisse2/"></iframe>
+				</p>
+				
+			</div>
+		</section>
+
+<!-- --------------------------------------------------------------------- -->
+
+		<section class="filetto">
+			<h4 class="Curve epicicloidi">Sezione 5:<br> </h4>
+			<div class="contenuto-sezione">
+				<p>
+					L'epicicloide è definita come la curva generata da un punto di una circonferenza che rotola sulla superficie esterna di un'altra circonferenza. A seconda del rapporto tra raggio R della circonferenza di base e il raggio r della circonferenza che gira si avranno diversi comportamenti:
+					<ul>
+						<li> se r è un ennesimo di R la curva si chiude dopo un giro</li>
+						<li>se invece r è una frazione ci sono più giri</li>
+						<li>se invece il rapporto è irrazionale la curva non si chiuderà mai</li>
+					</ul>
+					</p>
+					<iframe scrolling=no frameborder=0 width=500 height=500 src="./assets/sketches/prov2/"></iframe>
+				</p>
+					<h4 class="titolo-sezione">Formula <br></h4>
+				</p>
+				
+					x(ϕ)=(R+r)cos ϕ - rcos(R+r/rϕ)
+				</p>
+					y(ϕ)=(R+r)sin ϕ - rcos(R+r/rϕ)
+				
+			</div>
+			</section>
+
+<!-- --------------------------------------------------------------------- -->
+<section class="filetto">
+	<h4 class="titolo-sezione">Casi particolari<br></h4>
+	<div class="contenuto-sezione">
+		<p>
+			La cardioide è un tipo particolare di epicicloide con una sola cuspide, dove i raggi di base coincidono
+		</p>
+			<iframe scrolling=no frameborder=0 width=100 height=300 src="./assets/sketches/cardioide2/"></iframe>
+			<section class=></section>
+			Si ha una nefroide quando il raggio dell’ingranaggio è un mezzo del raggio della base.
+		</p>
+			<iframe scrolling=no frameborder=0 width=250 height=300 src="./assets/sketches/nefroide2/"></iframe>
+				</p>
+		
+	</div>
+</section>
+
+<section class="filetto">
+	<h4 class="titolo-sezione">Spirografo interattivo<br></h4>
+	<div class="contenuto-sezione">
+		<p>
+			
+
