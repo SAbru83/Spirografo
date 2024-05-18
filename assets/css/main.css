@@ -32,6 +32,14 @@ h4 {
 	margin: 0;
 }
 
+a{
+	font-style: normal; color: red;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
 iframe {
 	color:beige;
 	margin: 0;
