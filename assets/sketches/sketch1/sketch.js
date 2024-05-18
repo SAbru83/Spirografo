@@ -15,8 +15,8 @@ function setup() {
 	createCanvas(500, 500)
 background (20,20,20)
 angleMode (DEGREES)
-r1= 90
-r2= 150
+r1= 45
+r2= 75
 a1Inc = 0.5
 a2Inc = 3.7
 }
