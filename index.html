@@ -30,7 +30,11 @@
 			<div class="contenuto-sezione">
 				<p>
 					Lo Spirograph è stato inventato dall'ingegnere britannico <b>Denys Fisher</b>, che lo presentò nel 1965. Lo strumento fu prodotto dall'azienda Fisher, ma l'anno seguente i diritti di distribuzione vennero acquistati dalla Kenner, un'azienda di giocattoli statunitense, che iniziò a venderlo negli USA. 
-                    In Italia è stato commercializzato con il nome di spirografo o cerchio magico.
+                    In Italia è stato commercializzato con il nome di spirografo o cerchio magico.</p>
+				<p>
+					Lo Spirograph è composto generalmente da un insieme di ruote, anelli, triangoli, barre di plastica di diversa dimensione, tutti dotati di denti in grado di scorrere tra di loro.
+L'uso prevede che venga posato sopra un foglio di carta o cartoncino: a questo punto una penna o una matita viene inserita in uno dei fori degli ingranaggi, mentre questi vengono inseriti per esempio in un anello di dimensioni maggiori o su una barra. La forza impressa alla penna serve anche per far muovere l'ingranaggio. Le varie combinazioni possibili, tra i fori presenti negli ingranaggi circolari e le forme contro cui farli muovere, permette di ottenere un elevato numero di curve.
+
 				</p>
 				<iframe scrolling=no  height=500 width=500  src="./assets/img/spiro_fisher.jpg"></iframe>
 			</div>
@@ -42,8 +46,9 @@
 			<h4 class="titolo-sezione">Funzionamento <br></h4>
 			<div class="contenuto-sezione">
 				<p>
-					Lo spirografo è uno strumento che produce un tipo di curve chiamate <b>ipotrocoidi ed epicicloidi</b>, appartenenti alla famiglia delle <b>"rullette"</b>, curve tracciate da una curva, mentre rotola, senza scivolare, lungo un'altra curva.
-				</p>
+					Lo spirografo è uno strumento che produce un tipo di curve chiamate <b>ipotrocoidi ed epitrocoidi</b>, appartenenti alla famiglia delle <b>"rullette"</b>, curve tracciate da una curva, mentre rotola, senza scivolare, lungo un'altra curva,
+					 ma più specificamente alle <b>“trocoidi”</b>, generiche curve generate facendo rotolare una circonferenza su un'altra curva. </p> 
+
 		
 			</div>
 		</section>
@@ -54,21 +59,28 @@
 			<h4 class="titolo-sezione">Curve ipotrocoidi <br></h4>
 			<div class="contenuto-sezione">
 				<p>
-					Le ipotrocoidi sono le figure geometriche che si ottengono con lo spirografo classico, dove la rotella più piccola gira all'interno della circonferenza fissa di base. Le due circonferenze devono essere tangenti, quella interna deve essere appoggiata a quella esterna. In base al valore del raggio della circonferenza interna la curva avrà un comportamento diverso:
+					Le ipotrocoidi sono le figure geometriche che si ottengono normalmente con lo spirografo classico, dove la rotella più piccola gira all'interno della circonferenza fissa di base. Le due circonferenze devono essere tangenti, quella interna deve essere appoggiata a quella esterna.</p> <p>In base al valore del raggio della circonferenza interna la curva avrà un comportamento diverso:
 					<ul>
-						<li>se r è una frazione del tipo 1/n (n numero naturale) la curva si chiude dopo un singolo giro completo della circonferenza più piccola attorno alla più grande</li>
-						<li>se r è un numero razionale la curva si chiude dopo più di un giro</li>
-						<li>se r è un numero irrazionale la curva non si chiuderà mai</li>
+						<li>se "r" è una frazione del tipo 1/N (con N numero naturale) la curva si chiude <br>dopo un singolo giro completo della circonferenza più piccola attorno alla più grande</li>
+						<li>se "r" è un numero razionale la curva si chiude dopo più di un giro</li>
+						<li>se "r" è un numero irrazionale la curva non si chiuderà mai</li>
 	
 					</ul>
 				</p>
 				<iframe scrolling=no frameborder=0 width=500 height=500 src="./assets/sketches/curva_ipotricoide/"></iframe>
 			</p>
-				<h3 class="titolo-sezione">Formula <br>
+				<h3 class="titolo-sezione">Formula <br><br>
+				x(ϕ)= (R-r)*cosϕ + d*cos*(R-r/r)<br>
+			
+				y(ϕ)= (R-r)sinϕ + dsin(R-r/r*ϕ)</h3>
 			</p>
-				x(ϕ)= (R-r)*cosϕ + d*cos*(R+r/r)
+
+
+			<p>
+			"R" rappresenta il raggio della circonferenza di base, "r" il raggio della circonferenza interna e "d" la distanza del punto al centro della circonferenza interna a cui è fissato.
+Nello spirografo fisico la distanza "d" deve essere minore di "r", nell' astrazione matematica invece "d" può essere maggiore di "r" 
+
 			</p>
-				y(ϕ)= (R-r)sinϕ + dsin(R+r/r*ϕ)</h3>
 			
 		</div>
 		</section>
@@ -79,15 +91,17 @@
 			<h4 class="titolo-sezione">Casi particolari<br></h4>
 			<div class="contenuto-sezione">
 				<p>
-					L'ipocicloide per cui il raggio "r" della circonferenza interna è pari a un terzo della circonferenza di base viene detta deltoide. 
+					<b>L'ipocicloide</b> è un caso speciale di ipotrocoide dove d=r. Queste curve non possono essere realizzate su spirografi fisici, visto che non si può realizzare un foro esattamente sul bordo della circonferenza interna.
+				</p><p>
+					L'ipocicloide per cui il raggio "r" della circonferenza interna è pari a un terzo della circonferenza di base viene detta <b>deltoide</b>. 
 				</p>
 					<iframe scrolling=no frameborder=0 width=100 height=300 src="./assets/sketches/deltoide/"></iframe>
 					<section class=></section>
-					L'ipocicloide per cui il raggio "r" della circonferenza interna è pari a un quarto della circonferenza di base viene invece detta astroide.
+					L'ipocicloide per cui il raggio "r" della circonferenza interna è pari a un quarto della circonferenza di base viene invece detta <b>astroide</b>. 
 				</p>
 					<iframe scrolling=no frameborder=0 width=250 height=300 src="./assets/sketches/astroide/"></iframe>
 					<section class=></section>
-					L'ellisse può essere espressa come un caso particolare di ipotrocoide con "R"=2r e la distanza d = 1.
+					<b>L'ellisse</b>  può essere espressa come un caso particolare di ipotrocoide con "R"=2r e la distanza d = 1.
 				</p>
 					<iframe scrolling=no frameborder=0 width=250 height=300 src="./assets/sketches/ellisse2/"></iframe>
 				</p>
@@ -98,25 +112,31 @@
 <!-- --------------------------------------------------------------------- -->
 
 		<section class=>
-			<h4 class="Curve epicicloidi">Curve epicicloidi<br> </h4>
+			<h4 class="Curve epitrocoidi">Curve epitrocoidi<br> </h4>
 			<div class="contenuto-sezione">
 				<p>
-					L'epicicloide è definita come la curva generata da un punto di una circonferenza che rotola sulla superficie esterna di un'altra circonferenza. A seconda del rapporto tra raggio R della circonferenza di base e il raggio r della circonferenza che gira si avranno diversi comportamenti:
+					L'epitrocoide è definita come la curva generata da un punto di una circonferenza che rotola sulla superficie esterna di un'altra circonferenza.
+					<br>L'epitrocoidi venivano utilizzate per descrivere il moto dei pianeti nel sistema solare secondo il modello geocentrico di Tolomeo, un sistema astronomico che poneva al centro la Terra, ma ad oggi questo termine viene anche utilizzato per indicare la curva che la Luna descrive intorno al Sole nel suo moto di traslazione. </p><p>
+
+					 A seconda del rapporto tra raggio "R" della circonferenza di base e il raggio "r" della circonferenza che gira si avranno diversi comportamenti:
 					<ul>
-						<li> se r è un ennesimo di R la curva si chiude dopo un giro</li>
-						<li>se invece r è una frazione ci sono più giri</li>
+						<li> se "r" è un ennesimo di "R" la curva si chiude dopo un giro</li>
+						<li>se invece "r" è una frazione ci sono più giri</li>
 						<li>se invece il rapporto è irrazionale la curva non si chiuderà mai</li>
 					</ul>
 					</p>
 					<iframe scrolling=no frameborder=0 width=500 height=500 src="./assets/sketches/prov2/"></iframe>
 				</p>
-					<h3 class="titolo-sezione">Formula <br>
-				</p>
-				
-					x(ϕ)=(R+r)cos ϕ - rcos(R+r/rϕ)
-				</p>
-					y(ϕ)=(R+r)sin ϕ - rcos(R+r/rϕ)
-				</h3>
+					<h3 class="titolo-sezione">Formula <br><br>
+
+					x(ϕ)=(R+r)cos ϕ - d*cos(R+r/rϕ)<br>
+					y(ϕ)=(R+r)sin ϕ - d*cos(R+r/rϕ)
+				</h3>			</p>
+
+				<p>
+					"R" rappresenta il raggio della circonferenza di base, "r" il raggio della circonferenza interna e "d" la distanza del punto, al centro della circonferenza intera a cui è fissato.
+		
+					</p>
 				
 			</div>
 			</section>
@@ -125,12 +145,13 @@
 <section class=>
 	<h4 class="titolo-sezione">Casi particolari<br></h4>
 	<div class="contenuto-sezione">
-		<p>
-			La cardioide è un tipo particolare di epicicloide con una sola cuspide, dove i raggi di base coincidono
+		<p>Se d=r si parla di <b>epicicloide</b>, un caso particolare di epitrocoide.</p>
+<p>
+			La <b>cardioide</b> è un tipo particolare di epicicloide dove i raggi di base coincidono.
 		</p>
 			<iframe scrolling=no frameborder=0 width=100 height=300 src="./assets/sketches/cardioide2/"></iframe>
 			<section class=></section>
-			Si ha una nefroide quando il raggio dell'ingranaggio è un mezzo del raggio della base.
+			Si ha una <b>nefroide</b> quando il raggio dell'ingranaggio è un mezzo del raggio della base.
 		</p>
 			<iframe scrolling=no frameborder=0 width=250 height=300 src="./assets/sketches/nefroide2/"></iframe>
 				</p>
@@ -138,14 +159,13 @@
 	</div>
 </section>
 
-
 <section class=>
 	<h4 class="titolo-sezione">Sitografia <br></h4>
 	<div class="contenuto-sezione">
 		<p>
 			<a href="https://it.wikipedia.org/wiki/Spirograph" target=“blank”>Spirograph</a> </p><p>
 			<a href="https://it.wikipedia.org/wiki/Ipotrocoide" target=“blank”>Ipotrocoide</a></p><p>
-			<a href="https://it.wikipedia.org/wiki/Epicicloide" target=“blank”>Epicicloide</a>
+			<a href="https://it.wikipedia.org/wiki/Epicicloide" target=“blank”>Epitrocoide</a>
 
 		</p>
 
