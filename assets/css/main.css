@@ -33,11 +33,12 @@ h4 {
 }
 
 a{
-	font-style: normal; color: red;
+	font-style: normal; color: rgb(255, 0, 0);
 }
 
 a:hover{
 	text-decoration: underline;
+
 }
 
 iframe {
